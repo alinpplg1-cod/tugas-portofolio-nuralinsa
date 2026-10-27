@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portofolio Andi Pratama
 Website portofolio pribadi yang saya buat di Kelas Industri UBIG
 (Paket 1, Minggu 01 sampai 05).
@@ -17,3 +18,6 @@ jadwal belajar
 ## Tautan
 - Website: menyusul setelah *deploy* ke Vercel
 - Dibuat oleh: Andi Pratama, SMK Mitra
+=======
+# tugas-portofolio-nuralinsa
+>>>>>>> f704e7b8e9bcc14ad9b84ff18aecb52a8882fd78
