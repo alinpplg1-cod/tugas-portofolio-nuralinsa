@@ -1,10 +1,10 @@
-<<<<<<< HEAD
-# Portofolio Andi Pratama
+
+# Portofolio Nur Alinsa
 Website portofolio pribadi yang saya buat di Kelas Industri UBIG
 (Paket 1, Minggu 01 sampai 05).
 Website ini tampil rapi di ponsel, tablet, dan laptop.
 ## Tampilan
-![Tampilan beranda portofolio](img-proyek-jadwal.png)
+![Tampilan beranda portofolio](proyek-jadwal.png)
 ## Fitur
 - Halaman **Beranda** berisi profil, hobi, cita-cita, keahlian, dan
 jadwal belajar
@@ -16,8 +16,5 @@ jadwal belajar
 - CSS3 (Flexbox dan media query)
 - Git dan GitHub
 ## Tautan
-- Website: menyusul setelah *deploy* ke Vercel
-- Dibuat oleh: Andi Pratama, SMK Mitra
-=======
-# tugas-portofolio-nuralinsa
->>>>>>> f704e7b8e9bcc14ad9b84ff18aecb52a8882fd78
+- Website: https://tugas-portofolio-nuralinsa.vercel.app/
+- Dibuat oleh: Nur Alinsa, SMK Brantas Karangkates
