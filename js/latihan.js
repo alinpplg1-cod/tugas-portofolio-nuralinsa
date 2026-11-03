@@ -27,9 +27,8 @@ function predikat(nilai) {
     }
 }
 function rapor(namaSiswa, tugas, uts, uas) {
-    const rata = hitungRataRata(tugas, uts, uas);
-    return `${namaSiswa}: rata-rata ${rata}, predikat $
-{predikat(rata)}`;
+  const rata = hitungRataRata(tugas, uts, uas);
+  return `${namaSiswa}: rata-rata ${rata}, predikat ${predikat(rata)}`;
 }
 // 4. Hasil nilai Alin
 const rataRata = hitungRataRata(nilaiTugas, nilaiUts, nilaiUas);
