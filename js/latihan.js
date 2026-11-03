@@ -12,8 +12,7 @@ let nilaiUts = 78;
 let nilaiUas = 89;
 let kehadiran = 90;
 console.log(`Nama: ${nama}, kelas ${kelas}`);
-console.log(`Nilai tugas ${nilaiTugas}, UTS ${nilaiUts}, UAS $
-{nilaiUas}`);
+console.log(`Nilai tugas ${nilaiTugas}, UTS ${nilaiUts}, UAS ${nilaiUas}`);
 // 3. Fungsi
 const hitungRataRata = (tugas, uts, uas) => (tugas + uts + uas) / 3;
 function predikat(nilai) {
