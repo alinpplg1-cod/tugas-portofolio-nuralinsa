@@ -154,4 +154,20 @@ async function ambilRepo() {
 if (daftarRepo) {
   ambilRepo();
 }
-//hampr-penuh//
+const pesan = document.getElementById("pesan");
+const penghitung = document.getElementById("penghitung");
+const tombolKosongkan = document.getElementById("tombol-kosongkan");
+
+function updatePenghitung() {
+    penghitung.textContent = pesan.value.length + "/300 karakter";
+}
+
+// Hitung setiap kali pengguna mengetik
+pesan.addEventListener("input", updatePenghitung);
+
+// Kosongkan isi pesan
+tombolKosongkan.addEventListener("click", function () {
+    pesan.value = "";
+    updatePenghitung();
+    pesan.focus();
+});

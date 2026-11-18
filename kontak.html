@@ -70,14 +70,16 @@
             </select>
           </p>
           <p>
-            <label for="pesan">Pesan</label><br>
-            <textarea id="pesan" name="pesan" rows="5" cols="40" maxlength="300" placeholder="Tulis pesanmu di sini"
-              required></textarea><br>
-            <span id="hitung-karakter" class="keterangan">0/300 karakter</span>
-           <button type="button"id="Tombol-kosongkan">Kosongkan Pesan</button>
-          </p>
-          <button type="submit">Kirim Pesan</button>
-          
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" name="pesan" maxlength="300" placeholder="Tulis pesanmu di sini"></textarea>
+
+          <p id="penghitung">0/300 karakter</p>
+
+          <div class="baris-tombol">
+            <button type="submit" id="tombol-kirim">Kirim Pesan</button>
+            <button type="button" id="tombol-kosongkan">Kosongkan Pesan</button>
+          </div>
+
         </form>
       </section>
     </div>

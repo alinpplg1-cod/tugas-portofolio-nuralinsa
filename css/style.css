@@ -332,3 +332,37 @@ body.gelap {
 button[type="submit"] {
   background-color: #e63946;
 }
+.foto-profil {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#penghitung {
+    margin: 0.5rem 0 1rem;
+}
+
+.baris-tombol {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.baris-tombol button {
+    width: auto;
+    margin: 0;
+}
+#tombol-kosongkan {
+    background-color: #1e3a5f;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#tombol-kosongkan:hover {
+    background-color: #16304f;
+}
