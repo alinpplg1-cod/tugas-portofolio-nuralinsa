@@ -325,4 +325,10 @@ body.gelap {
   --warna-kartu: #1C2836;
   --warna-garis: #34465A;
 }
-/* 11. hampir penuh membuat teks berwarna*/
+#Tombol-kosongkan {
+  background-color: #1e3a5f;
+}
+
+button[type="submit"] {
+  background-color: #e63946;
+}
