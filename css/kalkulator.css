@@ -48,7 +48,46 @@ main .kartu input {
 }
 
 /* Tautan kembali */
-main .kartu > p:last-child {
+main .kartu>p:last-child {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+main .kartu {
+    max-width: 420px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+}
+
+main .kartu h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+main .kartu input {
+    width: 100%;
+    max-width: 100%;
+    margin: 0.3rem 0 0.8rem;
+}
+
+#tombol {
+    width: 100%;
+}
+
+#hasil {
+    margin-top: 1rem;
+    padding: 0.8rem;
+    border-left: 4px solid var(--warna-aksen);
+    background-color: var(--warna-latar);
+    text-align: center;
+    font-weight: 600;
+}
+
+#hasil:empty {
+    display: none;
+}
+
+main .kartu>p:last-child {
     margin-bottom: 0;
     text-align: center;
 }
